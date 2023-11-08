@@ -1,12 +1,14 @@
 ## About
-This is my research during performance test performance
+
+This is what I study during performance tests.
 
 ## Prerequisite
+
 - [Apache JMeter](https://jmeter.apache.org/)
-- JMeter Library: 
-+ [Custom Thread Groups](https://jmeter-plugins.org/wiki/ConcurrencyThreadGroup/)
+- [JMeter Plugins Manager](https://jmeter-plugins.org/)
 
 ## How to execute this test plan
+
 ```
 1. Clone this project
 2. Cd src/ folder
@@ -15,14 +17,9 @@ This is my research during performance test performance
 5. Enjoy!
 ```
 
-## Assumptions
+## Scenarios
 
-| Use case (Thread name in JMeter)                          | Description           |
-| ---------------------------------- |:-------------:|
-| Find Flight & Order Creation       | right-aligned | 
-| Find Flight & Edit Flight          | centered      |  
-| Find Flight & Cancel Order         | are neat      |   
-| User Register & Login Successfully |
-
-## Workload modeling
-
+1. Find Flight & Order Creation
+2. Find Flight & Edit Flight
+3. Find Flight & Cancel Order
+4. User Register & Login Successfully
